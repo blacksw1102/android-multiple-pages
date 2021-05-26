@@ -21,17 +21,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void myListener1(View target) {
+    public void introListener(View target) {
         Intent intent = new Intent(getApplicationContext(), IntroActivity.class);
         startActivity(intent);
     }
 
-    public void myListener2(View target) {
+    public void setupListener(View target) {
         Intent intent = new Intent(getApplicationContext(), SetupActivity.class);
         startActivity(intent);
     }
 
-    public void myListener3(View target) {
+    public void startListener(View target) {
         Intent intent = new Intent(getApplicationContext(), StartActivity.class);
         startActivity(intent);
     }

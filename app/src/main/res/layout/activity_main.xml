@@ -22,7 +22,7 @@
             android:backgroundTint="#ff0000"
             android:gravity="center"
             android:text="Introduction"
-            android:onClick="myListener1"/>
+            android:onClick="introListener"/>
 
         <Button
             android:id="@+id/button2"
@@ -31,7 +31,7 @@
             android:backgroundTint="#ff0000"
             android:gravity="center"
             android:text="Settings"
-            android:onClick="myListener2" />
+            android:onClick="setupListener" />
 
         <Button
             android:id="@+id/button3"
@@ -40,7 +40,7 @@
             android:backgroundTint="#ff0000"
             android:gravity="center"
             android:text="Start"
-            android:onClick="myListener3" />
+            android:onClick="startListener" />
 
     </LinearLayout>
 
